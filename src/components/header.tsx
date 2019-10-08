@@ -6,7 +6,6 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
     }}
   >
     <div
@@ -24,7 +23,6 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          bobilollolhohopop
         </Link>
       </h1>
     </div>

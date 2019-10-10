@@ -11,9 +11,18 @@
 
 ## 🚀 Quick start
 
+1.  **Installement**
+
+    Use `yarn` as dependency management
+
+    ```shell
+    yarn
+    ```
+
+
 1.  **Start local development**
 
-    Use `Yarn` to start the website localy on `localhost:8000`
+    Use `yarn` to start the website localy on `localhost:8000`
 
     ```shell
     yarn develop

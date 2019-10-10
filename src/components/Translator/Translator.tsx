@@ -46,15 +46,21 @@ const Translator = () => {
   return (
     <div className="container">
       <div className="inputs">
-        <div>
-          <Input
-            value={value}
-            onChangeInput={inputValue => onChangeValue(inputValue)}
-          />
+        <div className="inputs-container">
+          <div>
+            <label>Vanlig text:</label>
+            <Input
+              value={value}
+              onChangeInput={inputValue => onChangeValue(inputValue)}
+            />
+          </div>
+          <div>
+          <label>Rövar text:</label>
           <Input
             value={rövarValue}
             onChangeInput={rövarValue => onChangeRövarValue(rövarValue)}
           />
+          </div>
         </div>
         <button onClick={() => updateAllValues(value, rövarValue)}>
           Update both

@@ -42,7 +42,7 @@ const Jokes = () => {
             )}
             {!loader && (
               <>
-                {joke && <label>Normal text:</label>}
+                {joke && <label>Vanlig text:</label>}
                 <p>{joke}</p>
                 {rovarJoke && <label>Rövar text:</label>}
                 <p>{rovarJoke}</p>
